@@ -21,7 +21,7 @@ for ($numero = 0; $numero < 5; $numero++)
     echo $prenoms[$numero] . '<br />'; // affichera $prenoms[0], $prenoms[1] etc.
 }
 
-// LA boucle foreach permet de faire la meme chose quelques soit la taille du tableau
+// La boucle foreach permet de faire la meme chose quelques soit la taille du tableau
 foreach($prenoms as $element)
 {
     echo $element . '<br />'; // affichera $prenoms[0], $prenoms[1] etc.
