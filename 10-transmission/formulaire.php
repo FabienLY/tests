@@ -1,6 +1,7 @@
 <html>
 
 <form action="cible.php" method="post" enctype="multipart/form-data">
+<!--attribut enctype uniquement pour les formulaire avec fichier-->
 
     <p>
         Formulaire d'envoi de fichier :<br />
