@@ -12,3 +12,13 @@ else
 {
     echo 'Code secret absent ou incorrecte merci de réésayer ... ou pas.';
 }
+
+?>
+<!-- morceau de code qui permet de formater et de voir le contenu de array, ici des superglobales -->
+<pre>
+<?php
+print_r($_POST);
+print_r($_SERVER);
+?>
+</pre>
+
