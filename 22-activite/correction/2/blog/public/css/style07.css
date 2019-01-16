@@ -1,0 +1,152 @@
+body
+{
+    font-family: verdana, sans-serif ;
+    background-color: #ffffcc;
+}
+
+#topping
+{
+    background-color: purple;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    z-index: 22;
+    height: 40px;
+    box-shadow: 0px 10px 30px -16px black;
+
+}
+
+nav
+{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside
+{
+    width: 350px;
+    height: 40px;
+    color: white;
+
+}
+
+header
+{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px; /* hauteur du parent */
+    line-height: 44px; /* hauteur de ligne, pour l'alignement vertical */
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+#menu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 40px;
+    text-align: right;
+
+}
+
+.button
+{
+    margin-left: 16px;
+    margin-right: 4px;
+}
+
+#content
+{
+    margin-top: 40px;
+    height: 60%;
+
+}
+
+
+h1
+{
+    margin: 0px;
+
+}
+
+h3
+{
+    text-align:center;
+    background-color:purple;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+    border-radius: 10px;
+}
+
+.news
+{
+    width:1000px;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px -20px grey;
+
+}
+
+.news p
+{
+    
+    margin-top:0px;
+    word-break: break-word;
+    padding: 14px;
+    
+}
+
+.margin
+{
+    margin-left: 200px;
+}
+
+#topping a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: purple;
+}
+
+form
+{
+    text-align: center;
+    background-color: #CCCCCC;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#pages
+{
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    bottom: 14px;
+    z-index: 22;
+}
+#pages a
+{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.modify_comment
+{
+    width: 800px;
+}
